@@ -60,14 +60,14 @@ section {
     font-size: 14px;
     font-weight: 400;
     color: azure;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 .hero-text h3{
     font-family: "Kalam", cursive;
     font-size: 90px;
     line-height: 1;
     color: orange;
-    margin: 0 0 45px;
+    margin: 0 0 20px;
 }
 .hero-text h4{
     font-size: 18px;
@@ -98,4 +98,55 @@ section {
     border-radius: 30px;
     text-transform: uppercase;
     transform: all .0.55s ease;
+}
+.hero-text a:hover {
+    background: transparent;
+    border: 1px solid white;
+    transform: translateX(8px);
+}
+.hero-text a.ctaa{
+    background: transparent;
+    border: 1px solid white;
+    margin-left: 20px;
+}
+.hero-text a.ctaa i{
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.icons {
+    position: absolute;
+    top: 60%;
+    padding: 0 3%;
+    transform: translateY(-50%);
+}
+.icons i{
+    display: block;
+    margin: 25px 0;
+    font-size: 24px;
+    color: white;
+    transition: all .0.55s ease;
+}
+
+.icons i:hover{
+    color: #4d9559;
+    transform: translateY(-5px);
+}
+.scroll{
+    position: fixed;
+    bottom: 9%;
+    right: 4%;
+}
+.scroll i{
+    display: block;
+    padding: 12px;
+    font-size: 24px;
+    color: white;
+    background:  #4d9559;
+    border-radius: 30px;
+    transition: all .0.5s ease;
+
+}
+.scroll i:hover{
+    transform: translateY(-5px);
 }
